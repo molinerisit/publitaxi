@@ -16,7 +16,7 @@ export function HowItWorks() {
           <span className="font-semibold">3.</span> Si concretas una campaña, te colocamos la publicidad.
         </li>
         <li className="rounded-xl bg-neutral-50 p-4">
-          <span className="font-semibold">4.</span> Sigues manejando como siempre y cobras mes a mes.
+          <span className="font-semibold">4.</span> Seguís manejando como siempre y cobras mes a mes.
         </li>
       </ol>
 

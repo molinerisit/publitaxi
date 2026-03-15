@@ -62,13 +62,12 @@ export function DriverForm() {
 
     const name = String(formData.get("name") ?? "").trim();
     const phone = String(formData.get("phone") ?? "").trim();
-    const whatsappNumber = String(formData.get("whatsapp") ?? "").trim();
     const zone = String(formData.get("zone") ?? "").trim();
     const adSpaces = selectedSpaces;
 
-    if (!name || !phone || !whatsappNumber || !zone) {
+    if (!name || !phone || !zone) {
       setSubmitState("error");
-      setMessage("Completá nombre, teléfono, WhatsApp y zona.");
+      setMessage("Completá nombre, teléfono y zona.");
       return;
     }
 
@@ -84,7 +83,7 @@ export function DriverForm() {
       const { error } = await supabase.from("taxi_drivers").insert({
         name,
         phone,
-        plate_number: whatsappNumber,
+        plate_number: phone,
         zone,
         ad_spaces: adSpaces,
       });
@@ -135,17 +134,6 @@ export function DriverForm() {
             type="tel"
             name="phone"
             placeholder="Ej: 341 555 1234"
-            autoComplete="tel"
-            required
-          />
-        </label>
-        <label className="block">
-          <span className="mb-1 block text-sm font-semibold text-neutral-800">WhatsApp</span>
-          <input
-            className="min-h-12 w-full rounded-xl border border-neutral-300 bg-white px-4 text-[17px] text-black placeholder:text-neutral-500"
-            type="tel"
-            name="whatsapp"
-            placeholder="Número donde te escribimos"
             autoComplete="tel"
             required
           />

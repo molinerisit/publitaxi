@@ -6,7 +6,7 @@ export function NoInvestmentSection() {
         No pagas nada.
       </h2>
       <p className="mt-3 text-base leading-relaxed text-yellow-100">
-        Nosotros nos ocupamos de conseguir a los anunciantes y colocar la gráfica. Tú sigues
+        Nosotros nos ocupamos de conseguir a los anunciantes y colocar la gráfica. Vos seguís
         trabajando y cobrando por eso.
       </p>
       <p className="mt-3 text-base leading-relaxed text-yellow-100">

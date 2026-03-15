@@ -14,7 +14,7 @@ export function HeroSection({ registeredTaxis }: HeroSectionProps) {
   return (
     <section className="rounded-2xl border border-yellow-400 bg-yellow-300 p-5 shadow-sm" aria-labelledby="hero-title">
       <p className="rounded-lg bg-black px-3 py-2 text-center text-sm font-bold text-yellow-300">
-        Puedes sumar hasta $300.000 por mes con publicidad en tu taxi.
+        Podés ganar hasta $300.000 por mes con publicidad en tu taxi.
       </p>
       <p className="mt-4 text-sm font-semibold uppercase tracking-[0.18em] text-black/75">Rosario, Santa Fe</p>
 
@@ -26,9 +26,9 @@ export function HeroSection({ registeredTaxis }: HeroSectionProps) {
       </p>
 
       <div className="mt-4 space-y-2 text-base font-semibold text-black">
-        <p className="rounded-lg bg-white/80 px-3 py-3 leading-snug">Puedes sumar hasta $300.000 por mes.</p>
+        <p className="rounded-lg bg-white/80 px-3 py-3 leading-snug">Podés sumar hasta $300.000 por mes.</p>
         <p className="rounded-lg bg-white/80 px-3 py-3 leading-snug">Una forma simple de generar ingresos extra.</p>
-        <p className="rounded-lg bg-white/80 px-3 py-3 leading-snug">No tienes que invertir dinero ni buscar anunciantes.</p>
+        <p className="rounded-lg bg-white/80 px-3 py-3 leading-snug">No tenés que invertir dinero ni buscar anunciantes.</p>
       </div>
 
       <p className="mt-4 text-base font-semibold leading-relaxed text-black">

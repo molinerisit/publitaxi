@@ -25,11 +25,11 @@ export function EarningsSection() {
   return (
     <section className="rounded-2xl border border-black bg-yellow-50 p-5" aria-labelledby="ganancias-title">
       <h2 id="ganancias-title" className="text-2xl font-extrabold text-black">
-        ¿Cuánto puedes ganar?
+        ¿Cuánto podés ganar?
       </h2>
 
       <p className="mt-2 text-base font-medium text-neutral-800">
-        Según el espacio que elijas, puedes acceder a campañas mejor pagadas.
+        Según el espacio que elijas, podés acceder a campañas mejor pagadas.
       </p>
 
       <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">

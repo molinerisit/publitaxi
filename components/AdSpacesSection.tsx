@@ -18,7 +18,7 @@ export function AdSpacesSection() {
         ))}
       </ul>
 
-      <p className="mt-4 text-base font-medium text-neutral-700">Puedes empezar con uno solo o combinar varios.</p>
+      <p className="mt-4 text-base font-medium text-neutral-700">Podés empezar con uno solo o combinar varios.</p>
     </section>
   );
 }

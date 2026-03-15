@@ -54,7 +54,7 @@ export function CompanyForm() {
       router.push("/confirmacion");
     } catch {
       setSubmitState("error");
-      setMessage("No pudimos guardar la solicitud. Probá de nuevo.");
+      setMessage("No pudimos guardar la solicitud. Prueba de nuevo.");
     }
   }
 
@@ -66,7 +66,7 @@ export function CompanyForm() {
     >
       <p className="text-sm font-semibold uppercase tracking-wide text-neutral-600">Para marcas y negocios</p>
       <h2 id="publicitar-title" className="text-2xl font-bold text-black">
-        ¿Tienes una marca o un negocio?
+        ¿Tenes una marca o un negocio?
       </h2>
       <p className="mt-2 text-base text-neutral-700">
         Haz que tu marca salga a la calle y recorra Rosario en taxis reales.
