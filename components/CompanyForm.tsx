@@ -66,10 +66,10 @@ export function CompanyForm() {
     >
       <p className="text-sm font-semibold uppercase tracking-wide text-neutral-600">Para marcas y negocios</p>
       <h2 id="publicitar-title" className="text-2xl font-bold text-black">
-        ¿Tenés una marca o un negocio?
+        ¿Tienes una marca o un negocio?
       </h2>
       <p className="mt-2 text-base text-neutral-700">
-        Hacé que tu marca salga a la calle y recorra Rosario arriba de taxis reales.
+        Haz que tu marca salga a la calle y recorra Rosario en taxis reales.
       </p>
 
       <form className="mt-4 space-y-3" onSubmit={handleSubmit}>
@@ -114,7 +114,7 @@ export function CompanyForm() {
         <textarea
           className="min-h-24 w-full rounded-xl border border-neutral-300 px-4 py-3 text-base"
           name="notes"
-          placeholder="Contanos qué querés promocionar"
+          placeholder="Cuéntanos qué quieres promocionar"
         />
 
         <button

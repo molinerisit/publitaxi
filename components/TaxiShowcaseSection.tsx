@@ -6,10 +6,10 @@ export function TaxiShowcaseSection() {
       <div className="p-5 pb-0">
         <p className="text-sm font-semibold uppercase tracking-wide text-neutral-600">Así se puede ver</p>
         <h2 id="showcase-title" className="mt-2 text-2xl font-extrabold text-black">
-          Así podría verse tu taxi laburando con publicidad.
+          Así podría verse tu taxi trabajando con publicidad.
         </h2>
         <p className="mt-2 text-base text-neutral-700">
-          Cuanto más visible queda el taxi, más chances hay de ligar campañas que paguen mejor.
+          Cuanto más visible queda el taxi, más posibilidades hay de conseguir campañas mejor pagadas.
         </p>
       </div>
 

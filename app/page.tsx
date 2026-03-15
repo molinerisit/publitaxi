@@ -38,10 +38,10 @@ export default async function HomePage() {
           aria-labelledby="empresas-cta"
         >
           <p id="empresas-cta" className="text-xl font-bold text-black">
-            Tenés una empresa?
+            ¿Tienes una empresa?
           </p>
           <p className="mt-2 text-base leading-relaxed text-neutral-800">
-            Publicitá tu marca en taxis que recorren toda Rosario.
+            Publicita tu marca en taxis que recorren toda Rosario.
           </p>
           <Link
             href="/empresas"

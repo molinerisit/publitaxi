@@ -5,10 +5,10 @@ export function OpportunitySection() {
       <h2 id="oportunidad-title" className="text-2xl font-extrabold leading-tight text-black">
         Tu taxi ya trabaja todo el día.
       </h2>
-      <p className="mt-1 text-xl font-bold text-neutral-900">Ahora también te puede dejar plata extra.</p>
+      <p className="mt-1 text-xl font-bold text-neutral-900">Ahora también puede generarte ingresos extra.</p>
 
       <p className="mt-4 rounded-xl bg-neutral-50 p-4 text-[17px] leading-relaxed text-neutral-900">
-        Mientras hacés los viajes de siempre, negocios y marcas pueden pagar por aparecer en tu taxi.
+        Mientras haces los viajes de siempre, negocios y marcas pueden pagar por aparecer en tu taxi.
       </p>
     </section>
   );

@@ -99,7 +99,7 @@ export function DriverForm() {
       router.push("/confirmacion");
     } catch {
       setSubmitState("error");
-      setMessage("No pudimos guardar tu registro. Probá de nuevo.");
+      setMessage("No pudimos guardar tu registro. Prueba de nuevo.");
     }
   }
 
@@ -151,7 +151,7 @@ export function DriverForm() {
           />
         </label>
         <label className="block">
-          <span className="mb-1 block text-sm font-semibold text-neutral-800">Zona en la que laburás</span>
+          <span className="mb-1 block text-sm font-semibold text-neutral-800">Zona en la que trabajas</span>
           <input
             className="min-h-12 w-full rounded-xl border border-neutral-300 bg-white px-4 text-[17px] text-black placeholder:text-neutral-500"
             type="text"
@@ -162,7 +162,7 @@ export function DriverForm() {
         </label>
 
         <fieldset className="rounded-xl border border-neutral-300 bg-neutral-50 p-3">
-          <legend className="px-1 text-base font-semibold text-black">¿Qué publicidad te sirve?</legend>
+          <legend className="px-1 text-base font-semibold text-black">¿Qué espacios publicitarios prefieres?</legend>
           <div className="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2">
             {validSpaces.map((space) => {
               const card = adSpaceCards[space];
@@ -197,7 +197,7 @@ export function DriverForm() {
           </div>
         </fieldset>
 
-        <p className="text-sm font-medium text-neutral-700">Te respondemos por WhatsApp. Rápido, fácil y sin vueltas.</p>
+        <p className="text-sm font-medium text-neutral-700">Te respondemos por WhatsApp. Rápido, fácil y directo.</p>
 
         <button
           type="submit"

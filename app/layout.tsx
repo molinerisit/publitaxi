@@ -3,7 +3,7 @@ import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Publitaxi | Publicidad en taxis en Rosario",
-  description: "Ganá plata con publicidad en tu taxi o pedí información para publicitar en taxis de Rosario.",
+  description: "Gana dinero con publicidad en tu taxi o pide información para publicitar en taxis de Rosario.",
 };
 
 export default function RootLayout({

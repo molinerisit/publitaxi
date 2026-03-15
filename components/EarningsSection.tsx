@@ -25,11 +25,11 @@ export function EarningsSection() {
   return (
     <section className="rounded-2xl border border-black bg-yellow-50 p-5" aria-labelledby="ganancias-title">
       <h2 id="ganancias-title" className="text-2xl font-extrabold text-black">
-        ¿Cuánto podés ganar?
+        ¿Cuánto puedes ganar?
       </h2>
 
       <p className="mt-2 text-base font-medium text-neutral-800">
-        Según el espacio que elijas, podés entrar en campañas que pagan mejor.
+        Según el espacio que elijas, puedes acceder a campañas mejor pagadas.
       </p>
 
       <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -47,7 +47,7 @@ export function EarningsSection() {
       </div>
 
       <p className="mt-4 text-sm font-medium text-neutral-700">
-        Los montos cambian según la campaña, la zona donde laburás y el espacio que habilites.
+        Los montos cambian según la campaña, la zona donde trabajas y el espacio que habilites.
       </p>
     </section>
   );
